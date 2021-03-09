@@ -1,0 +1,36 @@
+img,
+a,
+li {
+  margin: 0;
+  padding: 0;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.gallery {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -10px;
+  margin-top: -10px;
+}
+.gallery__item {
+    flex-basis: calc(100% / 3 - 10px);
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.gallery__link {
+  width: 100%;
+}
+.gallery__image {
+  width: inherit;
+}
+a {
+  display: inline-block;
+}
