@@ -8,7 +8,12 @@
     <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-    
+    <!-- В этот список добавляй элементы галереи -->
+    <ul class="gallery js-gallery"></ul>
+<!--
+      Модальное окно для полноразмерного изображения
+      Для того чтобы открыть, необходимо добавить на div.lightbox CSS-класс is-open
+    -->
     <div class="lightbox js-lightbox">
         <div class="lightbox__overlay"></div>
     
@@ -19,6 +24,7 @@
         <button type="button" class="lightbox__button" data-action="close-lightbox"></button>
     </div>
     
-    <script src="gallery-items.js" type="module"></script>
+    <script src="/js/index.js" type="module"></script>
+     <script src="https://cdn.jsdelivr.net/npm/debounce-throttle@1.0.4/index.min.js"></script>
 </body>
 </html>
