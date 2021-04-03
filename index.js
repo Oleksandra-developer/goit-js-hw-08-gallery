@@ -1,4 +1,4 @@
-import items from "./gallery__items.js";
+import items from "./js/gallery__items.js";
 function createItems(src, alt = "img", sourse) {
    
     const li = document.createElement("li");
